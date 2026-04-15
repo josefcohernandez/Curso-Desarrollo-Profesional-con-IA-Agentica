@@ -1,4 +1,4 @@
-# Módulo D4: Seguridad, Costes y Optimización
+# Módulo E4: Seguridad, Costes y Optimización
 
 ## Descripción General
 
@@ -49,7 +49,7 @@ Al completar este módulo serás capaz de:
 
 - Experiencia con desarrollo web (al menos un stack: Node, Python, Java o similar)
 - Conocimientos básicos de seguridad web (OWASP Top 10, autenticación, autorización)
-- Haber completado los módulos D1-D3 del curso, o tener experiencia equivalente con agentes de código
+- Haber completado los módulos E1-E3 del curso, o tener experiencia equivalente con agentes de código
 - **Recomendado**: experiencia con al menos un proveedor de IA (Claude, GPT, etc.) y sus modelos de precios
 
 ---
@@ -80,5 +80,5 @@ Al completar este módulo serás capaz de:
 
 | | |
 |---|---|
-| **Anterior** | [Módulo D3: Testing Avanzado y AI Pair Programming](../modulo-D3-testing-pair-programming/README.md) |
+| **Anterior** | [Módulo E3: Testing Avanzado y AI Pair Programming](../modulo-E3-testing-pair-programming/README.md) |
 | **Siguiente** | [Proyecto Final](../proyecto-final/README.md) |

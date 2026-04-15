@@ -28,7 +28,7 @@ Mientras que un curso de herramienta enseña *qué botones pulsar*, este curso e
 
 ## Estructura del curso
 
-El curso está organizado en **4 bloques progresivos** con **12 módulos** + proyecto final:
+El curso está organizado en **5 bloques progresivos** con **14 módulos** + proyecto final:
 
 ### Bloque A: El Oficio (Módulos A1-A4)
 
@@ -39,28 +39,35 @@ El curso está organizado en **4 bloques progresivos** con **12 módulos** + pro
 | A3 | Revisión de Código Generado por IA | 2h | Qué buscar, red flags, patrones de diff review, deuda técnica silenciosa |
 | A4 | Debugging Sistemático con IA | 2h | Workflow reproducir-aislar-diagnosticar-verificar, logs, cross-stack, post-mortems |
 
-### Bloque B: Escenarios Reales (Módulos B1-B2)
+### Bloque B: Metodologías (Módulos B1-B2)
 
 | Módulo | Título | Tiempo | Descripción |
 |--------|--------|--------|-------------|
-| B1 | El Día a Día — Escenarios End-to-End | 2.5h | Onboarding, incidente en producción, proyecto greenfield, legacy code, día típico |
-| B2 | Trabajar con Diferentes Stacks | 2.5h | Frontend, backend, DevOps/IaC, data, mobile — patrones por dominio |
+| B1 | Estrategias de Desarrollo con IA Agéntica | 3h | Gherkin/BDD, TDD, Writer/Reviewer, Fan-out, Visual-Driven, PRD, Design Docs, ADR |
+| B2 | SDD — Spec-Driven Development (Monográfico) | 3.5h | Las cuatro fases de SDD: entrevista, especificación, implementación y verificación |
 
-### Bloque C: Equipo y Organización (Módulos C1-C2)
-
-| Módulo | Título | Tiempo | Descripción |
-|--------|--------|--------|-------------|
-| C1 | Adopción en Equipos y Métricas | 2h | Fases de adopción, resistencia al cambio, convenciones de equipo, ROI |
-| C2 | Ética, Responsabilidad y Panorama de Herramientas | 2h | IP, privacidad, compliance, comparativa de herramientas, futuro del desarrollo |
-
-### Bloque D: Nivel Experto (Módulos D1-D4)
+### Bloque C: Escenarios Reales (Módulos C1-C2)
 
 | Módulo | Título | Tiempo | Descripción |
 |--------|--------|--------|-------------|
-| D1 | Arquitectura de Software Orientada a IA | 2h | AI-readability, patrones modulares, documentación como contrato, anti-patrones |
-| D2 | Orquestación Multi-Agente y Automatización a Escala | 2h | Patrones de coordinación, prompts para CI/CD, batch processing, testing de prompts |
-| D3 | Testing Avanzado y AI Pair Programming | 2h | Property-based testing, mutation testing, visual regression, flow state |
-| D4 | Seguridad, Costes y Optimización | 2h | Threat modeling, security review profundo, token budgeting, benchmarking |
+| C1 | El Día a Día — Escenarios End-to-End | 2.5h | Onboarding, incidente en producción, proyecto greenfield, legacy code, día típico |
+| C2 | Trabajar con Diferentes Stacks | 2.5h | Frontend, backend, DevOps/IaC, data, mobile — patrones por dominio |
+
+### Bloque D: Equipo y Organización (Módulos D1-D2)
+
+| Módulo | Título | Tiempo | Descripción |
+|--------|--------|--------|-------------|
+| D1 | Adopción en Equipos y Métricas | 2h | Fases de adopción, resistencia al cambio, convenciones de equipo, ROI |
+| D2 | Ética, Responsabilidad y Panorama de Herramientas | 2h | IP, privacidad, compliance, comparativa de herramientas, futuro del desarrollo |
+
+### Bloque E: Nivel Experto (Módulos E1-E4)
+
+| Módulo | Título | Tiempo | Descripción |
+|--------|--------|--------|-------------|
+| E1 | Arquitectura de Software Orientada a IA | 2h | AI-readability, patrones modulares, documentación como contrato, anti-patrones |
+| E2 | Orquestación Multi-Agente y Automatización a Escala | 2h | Patrones de coordinación, prompts para CI/CD, batch processing, testing de prompts |
+| E3 | Testing Avanzado y AI Pair Programming | 2h | Property-based testing, mutation testing, visual regression, flow state |
+| E4 | Seguridad, Costes y Optimización | 2h | Threat modeling, security review profundo, token budgeting, benchmarking |
 
 ### Proyecto Final
 
@@ -68,7 +75,7 @@ El curso está organizado en **4 bloques progresivos** con **12 módulos** + pro
 |--------|--------|--------|-------------|
 | P | Caso Práctico Integrador | 4-6h | Sprint simulado de 3 días aplicando todas las técnicas del curso |
 
-**Tiempo total estimado: 29-31 horas**
+**Tiempo total estimado: 35-38 horas**
 
 ---
 
@@ -82,25 +89,32 @@ BLOQUE A: EL OFICIO
 │         │   │y fallos │   │ Review  │   │ con IA  │
 └─────────┘   └─────────┘   └─────────┘   └─────────┘
                                                 │
-BLOQUE B: ESCENARIOS REALES                     ▼
+BLOQUE B: METODOLOGÍAS                          ▼
                               ┌─────────┐   ┌─────────┐
                               │   B2    │◀──│   B1    │
-                              │ Stacks  │   │Escenario│
-                              │         │   │End-to-E │
+                              │  SDD    │   │Estrateg.│
+                              │Monograf.│   │Desarrol.│
                               └─────────┘   └─────────┘
                                   │
-BLOQUE C: EQUIPO Y ORGANIZACIÓN  ▼
+BLOQUE C: ESCENARIOS REALES      ▼
                               ┌─────────┐   ┌─────────┐
                               │   C1    │──▶│   C2    │
+                              │Escenario│   │ Stacks  │
+                              │End-to-E │   │         │
+                              └─────────┘   └─────────┘
+                                  │
+BLOQUE D: EQUIPO Y ORGANIZACIÓN  ▼
+                              ┌─────────┐   ┌─────────┐
+                              │   D1    │──▶│   D2    │
                               │Adopción │   │ Ética y │
                               │equipos  │   │herramie.│
                               └─────────┘   └─────────┘
                                   │
-BLOQUE D: NIVEL EXPERTO          ▼
+BLOQUE E: NIVEL EXPERTO          ▼
 ┌─────────┐   ┌─────────┐   ┌─────────┐   ┌─────────┐
-│   D1    │──▶│   D2    │──▶│   D3    │──▶│   D4    │
-│Arquitec.│   │Orquesta.│   │Testing +│   │Segurida│
-│para IA  │   │multi-ag.│   │Pair Prog│   │+ Costes│
+│   E1    │──▶│   E2    │──▶│   E3    │──▶│   E4    │
+│Arquitec.│   │Orquesta.│   │Testing +│   │Segurida.│
+│para IA  │   │multi-ag.│   │Pair Prog│   │+ Costes │
 └─────────┘   └─────────┘   └─────────┘   └─────────┘
                                                 │
 PROYECTO FINAL                                  ▼
@@ -117,7 +131,7 @@ PROYECTO FINAL                                  ▼
 
 ### Como formación guiada
 
-Sigue los bloques en orden (A → B → C → D → Proyecto). Cada módulo construye sobre los anteriores. Dedica al menos 1 semana al Bloque A — es la base de todo lo demás. El Bloque D (Experto) es opcional si no necesitas nivel avanzado.
+Sigue los bloques en orden (A → B → C → D → E → Proyecto). Cada módulo construye sobre los anteriores. Dedica al menos 1 semana al Bloque A — es la base de todo lo demás. El Bloque E (Experto) es opcional si no necesitas nivel avanzado.
 
 ### Como referencia rápida
 
@@ -125,12 +139,16 @@ Sigue los bloques en orden (A → B → C → D → Proyecto). Cada módulo cons
 - **"El agente genera código malo, ¿qué hago?"** → Módulo A2
 - **"¿Cómo reviso un PR generado por IA?"** → Módulo A3
 - **"¿Cómo debuggeo con IA?"** → Módulo A4
-- **"¿Cómo introduzco IA en mi equipo?"** → Módulo C1
-- **"¿Qué herramienta de IA elijo?"** → Módulo C2
-- **"¿Cómo diseño software para que la IA trabaje mejor?"** → Módulo D1
-- **"¿Cómo coordino múltiples agentes?"** → Módulo D2
-- **"¿Cómo hago testing avanzado con IA?"** → Módulo D3
-- **"¿Cómo gestiono costes y seguridad?"** → Módulo D4
+- **"¿Cómo aplico Gherkin/BDD y TDD con IA?"** → Módulo B1
+- **"¿Qué es SDD y cómo se aplica?"** → Módulo B2
+- **"¿Flujos end-to-end en mi día a día?"** → Módulo C1
+- **"¿Cómo adapto el agente a mi stack?"** → Módulo C2
+- **"¿Cómo introduzco IA en mi equipo?"** → Módulo D1
+- **"¿Qué herramienta de IA elijo?"** → Módulo D2
+- **"¿Cómo diseño software para que la IA trabaje mejor?"** → Módulo E1
+- **"¿Cómo coordino múltiples agentes?"** → Módulo E2
+- **"¿Cómo hago testing avanzado con IA?"** → Módulo E3
+- **"¿Cómo gestiono costes y seguridad?"** → Módulo E4
 
 ### En paralelo con el Curso de Claude Code
 
@@ -141,9 +159,9 @@ Si estás haciendo el [Curso de Claude Code](https://github.com/josefcohernandez
 | Semana 1-2 | M01-M06 (Fundamentos + Intermedio) | — |
 | Semana 3-4 | M07-M10 (Avanzado) | A1-A2 (Prompting + Limitaciones) |
 | Semana 5-6 | M11-M15 (Experto) | A3-A4 (Code Review + Debugging) |
-| Semana 7 | — | B1-B2 (Escenarios + Stacks) |
-| Semana 8 | — | C1-C2 (Equipos + Ética) |
-| Semana 9-10 | — | D1-D4 (Nivel Experto) |
+| Semana 7 | — | B1-B2 (Estrategias + SDD) + C1-C2 (Escenarios + Stacks) |
+| Semana 8 | — | D1-D2 (Equipos + Ética) |
+| Semana 9-10 | — | E1-E4 (Nivel Experto) |
 | Semana 11-12 | M16 (Proyecto Final) | Proyecto (combinable) |
 
 ---
@@ -158,16 +176,21 @@ Curso de Claude Code                     Este curso
 
 M01 Introducción ◄──────────────────────► A1 Prompting
 M03 Contexto     ◄──────────────────────► A2 Limitaciones
-M09 Agentes      ◄──────────────────────► B1 Escenarios
-M11 Enterprise   ◄──────────────────────► C1 Adopción equipos
-M12 Metodologías ◄──────────────────────► A3 Code Review
+                 ◄──────────────────────► A3 Code Review
                  ◄──────────────────────► A4 Debugging
-M04 Memoria      ◄──────────────────────► D1 Arquitectura para IA
-M09 Agentes      ◄──────────────────────► D2 Orquestación
-M10 CI/CD        ◄──────────────────────► D2 Orquestación
-M12 Metodologías ◄──────────────────────► D3 Testing avanzado
-M11 Enterprise   ◄──────────────────────► D4 Seguridad y costes
-M03 Contexto     ◄──────────────────────► D4 Seguridad y costes
+M09 Agentes      ◄──────────────────────► B1 Estrategias + SDD
+M09 Agentes      ◄──────────────────────► B2 SDD monográfico
+M09 Agentes      ◄──────────────────────► C1 Escenarios end-to-end
+                 ◄──────────────────────► C2 Diferentes stacks
+M11 Enterprise   ◄──────────────────────► D1 Adopción equipos
+M05 Permisos     ◄──────────────────────► D1 Adopción equipos
+M11 Enterprise   ◄──────────────────────► D2 Ética y herramientas
+M04 Memoria      ◄──────────────────────► E1 Arquitectura para IA
+M09 Agentes      ◄──────────────────────► E2 Orquestación
+M10 CI/CD        ◄──────────────────────► E2 Orquestación
+M09 Agentes      ◄──────────────────────► E3 Testing avanzado
+M11 Enterprise   ◄──────────────────────► E4 Seguridad y costes
+M03 Contexto     ◄──────────────────────► E4 Seguridad y costes
 M16 Proyecto     ◄──────────────────────► Proyecto
 ```
 
@@ -239,7 +262,43 @@ Curso-Desarrollo-Profesional-con-IA-Agentica/
 │       ├── 03-analisis-logs.md
 │       ├── 04-debugging-cross-stack.md
 │       └── 05-post-mortem.md
-├── modulo-B1-escenarios-end-to-end/
+├── modulo-B1-estrategias-desarrollo-ia/
+│   ├── README.md
+│   ├── teoria/
+│   │   ├── 01-por-que-metodologias.md
+│   │   ├── 02-panorama-estrategias.md
+│   │   ├── 03-gherkin-bdd.md
+│   │   ├── 04-tdd-con-ia.md
+│   │   ├── 05-patrones-avanzados.md
+│   │   └── 06-otras-estrategias.md
+│   ├── ejercicios/
+│   │   ├── 01-elegir-estrategia.md
+│   │   ├── 02-gherkin-desde-requisitos.md
+│   │   ├── 03-tdd-completo.md
+│   │   └── 04-writer-reviewer.md
+│   └── plantillas/
+│       ├── plantilla-decision-estrategia.md
+│       ├── plantilla-plan-implementacion.md
+│       └── plantilla-user-story-gherkin.md
+├── modulo-B2-sdd-monografico/
+│   ├── README.md
+│   ├── teoria/
+│   │   ├── 01-filosofia-sdd.md
+│   │   ├── 02-fase-entrevista.md
+│   │   ├── 03-fase-especificacion.md
+│   │   ├── 04-fase-implementacion.md
+│   │   ├── 05-fase-verificacion.md
+│   │   ├── 06-sdd-en-contexto.md
+│   │   └── 07-casos-estudio.md
+│   ├── ejercicios/
+│   │   ├── 01-spec-desde-cero.md
+│   │   ├── 02-spec-para-feature-existente.md
+│   │   ├── 03-sdd-ciclo-completo.md
+│   │   └── 04-verificacion-cruzada.md
+│   └── plantillas/
+│       ├── plantilla-spec.md
+│       └── plantilla-verificacion.md
+├── modulo-C1-escenarios-end-to-end/
 │   ├── README.md
 │   ├── teoria/
 │   │   ├── 01-onboarding-codebase.md
@@ -252,7 +311,7 @@ Curso-Desarrollo-Profesional-con-IA-Agentica/
 │       ├── 02-incidente-simulado.md
 │       ├── 03-greenfield.md
 │       └── 04-legacy-rescue.md
-├── modulo-B2-diferentes-stacks/
+├── modulo-C2-diferentes-stacks/
 │   ├── README.md
 │   ├── teoria/
 │   │   ├── 01-frontend-react-vue.md
@@ -266,7 +325,7 @@ Curso-Desarrollo-Profesional-con-IA-Agentica/
 │       ├── 03-dockerfile-optimizado.md
 │       ├── 04-analisis-dataset.md
 │       └── 05-feature-fullstack.md
-├── modulo-C1-adopcion-equipos/
+├── modulo-D1-adopcion-equipos/
 │   ├── README.md
 │   ├── teoria/
 │   │   ├── 01-fases-adopcion.md
@@ -279,7 +338,7 @@ Curso-Desarrollo-Profesional-con-IA-Agentica/
 │       ├── 02-plan-adopcion.md
 │       ├── 03-calculo-roi.md
 │       └── 04-gestionar-resistencia.md
-├── modulo-C2-etica-herramientas/
+├── modulo-D2-etica-herramientas/
 │   ├── README.md
 │   ├── teoria/
 │   │   ├── 01-propiedad-intelectual.md
@@ -293,7 +352,7 @@ Curso-Desarrollo-Profesional-con-IA-Agentica/
 │       ├── 02-analisis-compliance.md
 │       ├── 03-comparativa-practica.md
 │       └── 04-caso-etico.md
-├── modulo-D1-arquitectura-para-ia/
+├── modulo-E1-arquitectura-para-ia/
 │   ├── README.md
 │   ├── teoria/
 │   │   ├── 01-ai-readability.md
@@ -304,7 +363,7 @@ Curso-Desarrollo-Profesional-con-IA-Agentica/
 │       ├── 01-evaluar-ai-readability.md
 │       ├── 02-refactorizar-para-ia.md
 │       └── 03-documentar-para-ia.md
-├── modulo-D2-orquestacion-automatizacion/
+├── modulo-E2-orquestacion-automatizacion/
 │   ├── README.md
 │   ├── teoria/
 │   │   ├── 01-patrones-orquestacion.md
@@ -317,7 +376,7 @@ Curso-Desarrollo-Profesional-con-IA-Agentica/
 │       ├── 02-prompt-para-cicd.md
 │       ├── 03-migracion-batch.md
 │       └── 04-test-suite-prompts.md
-├── modulo-D3-testing-pair-programming/
+├── modulo-E3-testing-pair-programming/
 │   ├── README.md
 │   ├── teoria/
 │   │   ├── 01-testing-generativo.md
@@ -329,7 +388,7 @@ Curso-Desarrollo-Profesional-con-IA-Agentica/
 │       ├── 01-property-based-testing.md
 │       ├── 02-mutation-testing.md
 │       └── 03-sesion-pair-programming.md
-├── modulo-D4-seguridad-costes/
+├── modulo-E4-seguridad-costes/
 │   ├── README.md
 │   ├── teoria/
 │   │   ├── 01-threat-modeling.md
@@ -372,6 +431,7 @@ Curso-Desarrollo-Profesional-con-IA-Agentica/
 | Versión | Fecha | Cambios principales |
 |---------|-------|---------------------|
 | 1.0 | Abril 2026 | Versión inicial — 12 módulos + proyecto en 4 bloques (A: El Oficio, B: Escenarios, C: Equipo, D: Experto) |
+| 1.1 | Abril 2026 | Reestructuración — nuevo Bloque B (Metodologías: B1 Estrategias + B2 SDD), 14 módulos en 5 bloques. Bloques B→C, C→D, D→E. El curso es ahora la fuente autoritativa de metodologías de desarrollo con IA |
 
 ---
 

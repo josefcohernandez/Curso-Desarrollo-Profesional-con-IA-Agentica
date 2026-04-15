@@ -2,7 +2,7 @@
 
 ## Introducción
 
-Esta colección de 8 templates cubre los tipos de tarea más frecuentes en desarrollo con IA agéntica. Cada template incluye la estructura, notas de uso y un ejemplo completo listo para adaptar.
+Esta colección de 10 templates cubre los tipos de tarea más frecuentes en desarrollo con IA agéntica. Cada template incluye la estructura, notas de uso y un ejemplo completo listo para adaptar.
 
 Estos templates son la base — adáptalos a tu proyecto, stack y convenciones. Lo que importa no es la forma exacta sino que incluyan los 3 componentes esenciales: **contexto**, **intención** y **verificación**.
 
@@ -299,6 +299,104 @@ Datos del incidente:
 Genera un post-mortem con: timeline, causa raíz, impacto, acciones correctivas.
 Formato: blameless (sin culpables, foco en el proceso).
 Incluye al menos 3 acciones correctivas con tipo (prevención/detección/mitigación).
+```
+
+---
+
+## Template 9: Entrevista SDD (Spec-Driven Development)
+
+### Estructura
+
+```text
+Quiero construir [descripción breve del proyecto/feature].
+Entrevístame en detalle para entender los requisitos completos.
+
+Pregunta sobre:
+- Funcionalidad core y flujos principales
+- Edge cases y manejo de errores
+- Requisitos no funcionales (rendimiento, seguridad, escalabilidad)
+- Integraciones con sistemas existentes
+- Restricciones técnicas y de negocio
+
+No hagas preguntas obvias. Profundiza en las partes difíciles que
+quizás no he considerado.
+
+Sigue entrevistando hasta que hayamos cubierto todo. Después, escribe
+la spec completa en SPEC.md.
+```
+
+### Notas de uso
+
+- Deja que el agente haga las preguntas — no intentes escribir la spec tú solo
+- Responde con detalle; cada respuesta elimina ambigüedad
+- Si el agente pregunta algo que no habías considerado, es una buena señal
+- La entrevista debe durar 5-15 minutos; si pasa de 20, el scope es demasiado amplio
+- Ver [Módulo B2](../../modulo-B2-sdd-monografico/README.md) para la teoría completa
+
+### Ejemplo completo
+
+```text
+Quiero construir un sistema de notificaciones en tiempo real para nuestra
+app de e-commerce. Los usuarios deben recibir notificaciones cuando sus
+pedidos cambien de estado y cuando haya ofertas relevantes.
+
+Entrevístame para entender los requisitos completos. Pregunta sobre
+tipos de notificación, preferencias de usuario, garantías de entrega,
+volumen esperado, y edge cases que no haya considerado.
+
+Cuando terminemos, genera SPEC.md con requisitos funcionales, no
+funcionales, diseño técnico, edge cases y fases de implementación.
+```
+
+---
+
+## Template 10: Ciclo TDD
+
+### Estructura
+
+```text
+Implementa [funcionalidad] usando Test-Driven Development estricto.
+
+Para cada requisito:
+1. Escribe un test que falla (describe el comportamiento esperado)
+2. Ejecuta el test para confirmar que falla
+3. Escribe el mínimo código para que pase
+4. Ejecuta para confirmar que pasa
+5. Refactoriza si hay oportunidades
+6. Ejecuta todos los tests para verificar que nada se rompió
+
+Requisitos:
+- [requisito 1]
+- [requisito 2]
+- [requisito 3]
+
+Implementa un requisito a la vez, en orden.
+Al terminar, ejecuta todos los tests con cobertura.
+Objetivo: > 90% coverage.
+```
+
+### Notas de uso
+
+- No dejes que el agente implemente todo de golpe — un requisito a la vez
+- Si el agente omite el paso "ejecutar test para confirmar que falla", pídelo explícitamente
+- Los tests deben fallar por la razón correcta (función no existe, no por error de sintaxis)
+- Ver [Módulo B1](../../modulo-B1-estrategias-desarrollo-ia/README.md) para la teoría completa
+
+### Ejemplo completo
+
+```text
+Implementa el servicio de validación de contraseñas usando TDD estricto.
+
+Requisitos (implementa uno a la vez):
+1. Rechaza contraseñas de menos de 8 caracteres
+2. Requiere al menos una mayúscula y una minúscula
+3. Requiere al menos un número
+4. Rechaza contraseñas comunes (lista de las 100 más comunes)
+5. Devuelve un score de fortaleza (débil/media/fuerte)
+
+Para cada requisito: test que falla → implementación mínima → test pasa → refactor.
+Ejecuta todos los tests acumulados después de cada requisito.
+Al final, muestra la cobertura. Objetivo: > 95%.
 ```
 
 ---

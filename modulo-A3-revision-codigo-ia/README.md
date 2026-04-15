@@ -77,7 +77,8 @@ Al completar este módulo serás capaz de:
 
 Este módulo complementa especialmente:
 
-- [M12 - Metodologías de Desarrollo con IA](https://github.com/josefcohernandez/claude-code-course/blob/master/curso/modulo-12-metodologias-desarrollo-ia/README.md): donde se enseña SDD, Gherkin y TDD como metodologías de desarrollo — este módulo se centra en el oficio de revisar el resultado, una habilidad transferible a cualquier herramienta
+- [Módulo B1 - Estrategias de Desarrollo con IA](../modulo-B1-estrategias-desarrollo-ia/README.md): donde se cubren Gherkin/BDD, TDD y patrones avanzados de workflow como Writer/Reviewer — este módulo A3 se centra en el oficio de revisar el resultado, una habilidad transferible a cualquier herramienta
+- [Módulo B2 - SDD Monográfico](../modulo-B2-sdd-monografico/README.md): donde se detalla la metodología Spec-Driven Development que antecede y guía el código que aquí se revisa
 
 ---
 

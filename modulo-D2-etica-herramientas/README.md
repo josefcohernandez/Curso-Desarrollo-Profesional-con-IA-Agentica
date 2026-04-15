@@ -1,4 +1,4 @@
-# Módulo C2: Ética, Responsabilidad y Panorama de Herramientas
+# Módulo D2: Ética, Responsabilidad y Panorama de Herramientas
 
 ## Descripción General
 
@@ -50,7 +50,7 @@ Al completar este módulo serás capaz de:
 ## Prerequisitos
 
 - Experiencia usando al menos una herramienta de IA para desarrollo
-- Haber completado los módulos A1-A4 y B1-B2 de este curso (recomendado)
+- Haber completado los módulos A1-A4, B1-B2 y C1-C2 de este curso (recomendado)
 - Conocimiento básico de conceptos de seguridad y privacidad en software
 
 ---
@@ -88,5 +88,5 @@ Este módulo complementa especialmente:
 
 | | |
 |---|---|
-| **Anterior** | [Módulo C1: Adopción en Equipos y Métricas](../modulo-C1-adopcion-equipos/README.md) |
-| **Siguiente** | [Módulo D1: Arquitectura de Software Orientada a IA](../modulo-D1-arquitectura-para-ia/README.md) |
+| **Anterior** | [Módulo D1: Adopción en Equipos y Métricas](../modulo-D1-adopcion-equipos/README.md) |
+| **Siguiente** | [Módulo E1: Arquitectura de Software Orientada a IA](../modulo-E1-arquitectura-para-ia/README.md) |

@@ -1,4 +1,4 @@
-# Módulo B2: Trabajar con Diferentes Stacks
+# Módulo C2: Trabajar con Diferentes Stacks
 
 ## Descripción General
 
@@ -52,7 +52,7 @@ Al completar este módulo serás capaz de:
 - Haber completado el [Módulo A1: Prompting Efectivo](../modulo-A1-prompting-efectivo/README.md) — necesitas saber escribir buenos prompts antes de adaptarlos por stack
 - Experiencia práctica con al menos una herramienta de coding con IA (Claude Code, Cursor, Copilot, etc.)
 - Conocimiento básico de al menos 2 de los 5 stacks cubiertos (frontend, backend, DevOps, data, mobile)
-- **Recomendado**: haber completado el [Módulo B1: Escenarios End-to-End](../modulo-B1-escenarios-end-to-end/README.md)
+- **Recomendado**: haber completado el [Módulo C1: Escenarios End-to-End](../modulo-C1-escenarios-end-to-end/README.md)
 
 ---
 
@@ -82,5 +82,5 @@ Al completar este módulo serás capaz de:
 
 | | |
 |---|---|
-| **Anterior** | [Módulo B1: Escenarios End-to-End](../modulo-B1-escenarios-end-to-end/README.md) |
-| **Siguiente** | [Módulo C1: Adopción en Equipos](../modulo-C1-adopcion-equipos/README.md) |
+| **Anterior** | [Módulo C1: El Día a Día — Escenarios End-to-End](../modulo-C1-escenarios-end-to-end/README.md) |
+| **Siguiente** | [Módulo D1: Adopción en Equipos y Métricas](../modulo-D1-adopcion-equipos/README.md) |

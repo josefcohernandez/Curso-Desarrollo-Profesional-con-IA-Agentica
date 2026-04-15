@@ -78,7 +78,8 @@ Al completar este módulo serás capaz de:
 
 Este módulo complementa especialmente:
 
-- [M12 - Metodologías de Desarrollo con IA](https://github.com/josefcohernandez/claude-code-course/blob/master/curso/modulo-12-metodologias-desarrollo-ia/README.md): donde se enseña SDD, Gherkin y TDD como metodologías de desarrollo
+- [Módulo B1 - Estrategias de Desarrollo con IA](../modulo-B1-estrategias-desarrollo-ia/README.md): donde se cubren Gherkin/BDD, TDD y patrones avanzados de workflow como Writer/Reviewer y Fan-out
+- [Módulo B2 - SDD Monográfico](../modulo-B2-sdd-monografico/README.md): donde se detalla Spec-Driven Development — las especificaciones generadas en SDD son la referencia para identificar regresiones durante el debugging
 - [M09 - Agentes, Skills y Teams](https://github.com/josefcohernandez/claude-code-course/blob/master/curso/modulo-09-agentes-skills-teams/README.md): donde se enseñan las capacidades técnicas de subagentes — este módulo enseña cuándo y cómo aplicarlas en situaciones reales de debugging
 
 ---
@@ -88,4 +89,4 @@ Este módulo complementa especialmente:
 | | |
 |---|---|
 | **Anterior** | [Módulo A3: Revisión de Código Generado por IA](../modulo-A3-revision-codigo-ia/README.md) |
-| **Siguiente** | [Módulo B1: El Día a Día — Escenarios End-to-End](../modulo-B1-escenarios-end-to-end/README.md) |
+| **Siguiente** | [Módulo B1: Estrategias de Desarrollo con IA Agéntica](../modulo-B1-estrategias-desarrollo-ia/README.md) |

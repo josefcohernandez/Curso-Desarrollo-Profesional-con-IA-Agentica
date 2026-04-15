@@ -31,7 +31,7 @@ Puedes elegir el stack con el que te sientas cómodo. Sugerencias:
 
 | Módulo del curso | Técnica a aplicar |
 |-----------------|-------------------|
-| A1 (Prompting) | Prompt de exploración para definir requerimientos |
+| A1 (Prompting) + B2 (SDD) | Entrevista de requisitos con el agente siguiendo el flujo SDD |
 
 Usa el agente de IA como si fuera un product manager al que entrevistas. Pídele que te ayude a definir los requerimientos funcionales y no funcionales de la API.
 
@@ -45,7 +45,7 @@ Usa el agente de IA como si fuera un product manager al que entrevistas. Pídele
 
 | Módulo del curso | Técnica a aplicar |
 |-----------------|-------------------|
-| A1 (Prompting) + B1 (Escenarios greenfield) | Prompt de diseño con restricciones |
+| A1 (Prompting) + C1 (Escenarios greenfield) | Prompt de diseño con restricciones |
 
 Usa el agente para diseñar la arquitectura del proyecto.
 
@@ -59,7 +59,7 @@ Usa el agente para diseñar la arquitectura del proyecto.
 
 | Módulo del curso | Técnica a aplicar |
 |-----------------|-------------------|
-| B2 (Stacks) | Prompt de scaffolding con configuración de CI |
+| C2 (Stacks) | Prompt de scaffolding con configuración de CI |
 
 Usa el agente para generar la estructura base del proyecto.
 
@@ -74,7 +74,7 @@ Usa el agente para generar la estructura base del proyecto.
 
 | Módulo del curso | Técnica a aplicar |
 |-----------------|-------------------|
-| A1 (Patrones: Add Feature) | Prompt de feature con TDD |
+| A1 (Patrones: Add Feature) + B1 (TDD con IA) | Prompt de feature con TDD |
 
 Implementa el CRUD completo de tareas con TDD.
 
@@ -94,7 +94,7 @@ Implementa el CRUD completo de tareas con TDD.
 
 | Módulo del curso | Técnica a aplicar |
 |-----------------|-------------------|
-| A1 (Patrones: Add Feature) + B2 (Backend) | Prompt con restricciones de seguridad |
+| A1 (Patrones: Add Feature) + C2 (Backend) | Prompt con restricciones de seguridad |
 
 Añade autenticación JWT a la API.
 
@@ -154,7 +154,7 @@ Aplica las correcciones identificadas en el review, con cuidado de no caer en ov
 
 | Módulo del curso | Técnica a aplicar |
 |-----------------|-------------------|
-| B1 (Escenarios end-to-end) | Feature fullstack con tests completos |
+| C1 (Escenarios end-to-end) | Feature fullstack con tests completos |
 
 Añade búsqueda y filtrado a la lista de tareas.
 
@@ -168,7 +168,7 @@ Añade búsqueda y filtrado a la lista de tareas.
 
 | Módulo del curso | Técnica a aplicar |
 |-----------------|-------------------|
-| C1 (Adopción) | CLAUDE.md con convenciones, permisos y restricciones |
+| D1 (Adopción) | CLAUDE.md con convenciones, permisos y restricciones |
 
 Crea un CLAUDE.md para el proyecto como si fuera a ser mantenido por un equipo de 5 developers.
 
@@ -182,7 +182,7 @@ Crea un CLAUDE.md para el proyecto como si fuera a ser mantenido por un equipo d
 
 | Módulo del curso | Técnica a aplicar |
 |-----------------|-------------------|
-| C2 (Ética) | Auditoría con checklist de seguridad |
+| D2 (Ética) | Auditoría con checklist de seguridad |
 
 Revisa el proyecto completo buscando problemas de seguridad y privacidad.
 
@@ -196,7 +196,7 @@ Revisa el proyecto completo buscando problemas de seguridad y privacidad.
 
 | Módulo del curso | Técnica a aplicar |
 |-----------------|-------------------|
-| C1 (Métricas) | Informe con métricas cuantitativas y cualitativas |
+| D1 (Métricas) | Informe con métricas cuantitativas y cualitativas |
 
 Documenta tu experiencia con métricas concretas.
 

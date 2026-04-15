@@ -41,7 +41,7 @@ No es un examen de programación. Se evalúa **cómo trabajas con IA**, no solo 
 
 ## Prerrequisitos
 
-- Haber completado los módulos A1-A4, B1-B2 y C1-C2 del curso
+- Haber completado los módulos A1-A4, B1-B2, C1-C2 y D1-D2 del curso
 - Acceso a una herramienta de coding con IA (Claude Code, Cursor, Copilot, etc.)
 - Entorno de desarrollo funcional (Node.js/Python + base de datos)
 - Conocimientos básicos de APIs REST
@@ -62,4 +62,4 @@ Si también estás haciendo el [Proyecto Final del Curso de Claude Code (M16)](h
 
 | | |
 |---|---|
-| **Anterior** | [Módulo D4: Seguridad, Costes y Optimización](../modulo-D4-seguridad-costes/README.md) |
+| **Anterior** | [Módulo E4: Seguridad, Costes y Optimización](../modulo-E4-seguridad-costes/README.md) |

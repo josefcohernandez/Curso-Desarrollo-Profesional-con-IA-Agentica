@@ -1,4 +1,4 @@
-# Módulo D1: Arquitectura de Software Orientada a IA
+# Módulo E1: Arquitectura de Software Orientada a IA
 
 ## Descripción General
 
@@ -48,7 +48,7 @@ Al completar este módulo serás capaz de:
 - Experiencia con al menos un proyecto de software real (aplicación web, API, librería)
 - Familiaridad con conceptos de arquitectura: módulos, interfaces, dependency injection
 - Conocimiento básico de testing (unitarios, integración)
-- **Recomendado**: haber completado el [Módulo C1: Adopción en Equipos y Métricas](../modulo-C1-adopcion-equipos/README.md)
+- **Recomendado**: haber completado el [Módulo D2: Ética, Responsabilidad y Panorama de Herramientas](../modulo-D2-etica-herramientas/README.md)
 
 ---
 
@@ -78,5 +78,5 @@ Al completar este módulo serás capaz de:
 
 | | |
 |---|---|
-| **Anterior** | [Módulo C2: Ética y Herramientas](../modulo-C2-etica-herramientas/README.md) |
-| **Siguiente** | [Módulo D2: Orquestación Multi-Agente y Automatización a Escala](../modulo-D2-orquestacion-automatizacion/README.md) |
+| **Anterior** | [Módulo D2: Ética, Responsabilidad y Panorama de Herramientas](../modulo-D2-etica-herramientas/README.md) |
+| **Siguiente** | [Módulo E2: Orquestación Multi-Agente y Automatización a Escala](../modulo-E2-orquestacion-automatizacion/README.md) |

@@ -1,4 +1,4 @@
-# Módulo C1: Adopción en Equipos y Métricas
+# Módulo D1: Adopción en Equipos y Métricas
 
 ## Descripción General
 
@@ -50,7 +50,7 @@ Al completar este módulo serás capaz de:
 
 - Experiencia trabajando en equipos de desarrollo (no necesariamente como lead)
 - Familiaridad con herramientas de IA para desarrollo (Claude Code, Cursor, Copilot, etc.)
-- **Recomendado**: haber completado los módulos A1-A4 y B1-B2 de este curso
+- **Recomendado**: haber completado los módulos A1-A4, B1-B2 y C1-C2 de este curso
 - **Complementario**: [M11 - Enterprise y Seguridad](https://github.com/josefcohernandez/claude-code-course/blob/master/curso/modulo-11-enterprise-seguridad/README.md) del Curso de Claude Code
 
 ---
@@ -91,5 +91,5 @@ Este módulo complementa especialmente:
 
 | | |
 |---|---|
-| **Anterior** | [Módulo B2: Diferentes Stacks y Tecnologías](../modulo-B2-diferentes-stacks/README.md) |
-| **Siguiente** | [Módulo C2: Ética, Responsabilidad y Panorama de Herramientas](../modulo-C2-etica-herramientas/README.md) |
+| **Anterior** | [Módulo C2: Trabajar con Diferentes Stacks](../modulo-C2-diferentes-stacks/README.md) |
+| **Siguiente** | [Módulo D2: Ética, Responsabilidad y Panorama de Herramientas](../modulo-D2-etica-herramientas/README.md) |

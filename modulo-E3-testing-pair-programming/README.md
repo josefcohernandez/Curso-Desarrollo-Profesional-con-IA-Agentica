@@ -1,4 +1,4 @@
-# Módulo D3: Testing Avanzado y AI Pair Programming
+# Módulo E3: Testing Avanzado y AI Pair Programming
 
 ## Descripción General
 
@@ -48,7 +48,7 @@ Al completar este módulo serás capaz de:
 
 - Experiencia escribiendo tests unitarios y de integración en al menos un lenguaje
 - Familiaridad con el concepto de code coverage y herramientas de testing (Jest, pytest, JUnit o similares)
-- Haber completado los módulos D1 y D2 del curso, o tener experiencia equivalente con agentes de código
+- Haber completado los módulos E1 y E2 del curso, o tener experiencia equivalente con agentes de código
 - **Recomendado**: experiencia con TDD (Test-Driven Development)
 
 ---
@@ -79,5 +79,5 @@ Al completar este módulo serás capaz de:
 
 | | |
 |---|---|
-| **Anterior** | [Módulo D2: Orquestación y Automatización](../modulo-D2-orquestacion-automatizacion/README.md) |
-| **Siguiente** | [Módulo D4: Seguridad, Costes y Optimización](../modulo-D4-seguridad-costes/README.md) |
+| **Anterior** | [Módulo E2: Orquestación Multi-Agente y Automatización a Escala](../modulo-E2-orquestacion-automatizacion/README.md) |
+| **Siguiente** | [Módulo E4: Seguridad, Costes y Optimización](../modulo-E4-seguridad-costes/README.md) |

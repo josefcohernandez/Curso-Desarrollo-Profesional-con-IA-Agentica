@@ -1,4 +1,4 @@
-# Módulo D2: Orquestación Multi-Agente y Automatización a Escala
+# Módulo E2: Orquestación Multi-Agente y Automatización a Escala
 
 ## Descripción General
 
@@ -50,7 +50,7 @@ Al completar este módulo serás capaz de:
 - Experiencia con al menos un agente de código en proyectos reales
 - Familiaridad con CI/CD (GitHub Actions, GitLab CI o similar)
 - Conocimiento básico de scripting bash
-- **Recomendado**: haber completado el [Módulo D1: Arquitectura de Software Orientada a IA](../modulo-D1-arquitectura-para-ia/README.md)
+- **Recomendado**: haber completado el [Módulo E1: Arquitectura de Software Orientada a IA](../modulo-E1-arquitectura-para-ia/README.md)
 
 ---
 
@@ -78,5 +78,5 @@ Al completar este módulo serás capaz de:
 
 | | |
 |---|---|
-| **Anterior** | [Módulo D1: Arquitectura de Software Orientada a IA](../modulo-D1-arquitectura-para-ia/README.md) |
-| **Siguiente** | [Módulo D3: Testing Avanzado y AI Pair Programming](../modulo-D3-testing-pair-programming/README.md) |
+| **Anterior** | [Módulo E1: Arquitectura de Software Orientada a IA](../modulo-E1-arquitectura-para-ia/README.md) |
+| **Siguiente** | [Módulo E3: Testing Avanzado y AI Pair Programming](../modulo-E3-testing-pair-programming/README.md) |

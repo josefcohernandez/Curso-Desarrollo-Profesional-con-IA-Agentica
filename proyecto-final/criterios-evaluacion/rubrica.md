@@ -44,7 +44,7 @@ Evalúa el resultado final: funcionalidad, tests, ausencia de over-engineering, 
 
 ## Criterio 4: Proceso y Metodología (20%)
 
-Evalúa si se siguieron los workflows de cada módulo: TDD, Plan Mode, `/clear`, subagentes, debugging sistemático.
+Evalúa si se siguieron los workflows de cada módulo: SDD ([Módulo B2](../../modulo-B2-sdd-monografico/README.md)), TDD y Gherkin ([Módulo B1](../../modulo-B1-estrategias-desarrollo-ia/README.md)), Plan Mode, `/clear`, subagentes, debugging sistemático.
 
 | Nivel | Descripción | Ejemplos |
 |-------|-------------|----------|

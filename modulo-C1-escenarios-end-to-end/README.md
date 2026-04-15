@@ -1,4 +1,4 @@
-# Módulo B1: El Día a Día — Escenarios End-to-End
+# Módulo C1: El Día a Día — Escenarios End-to-End
 
 ## Descripción General
 
@@ -49,6 +49,7 @@ Al completar este módulo serás capaz de:
 ## Prerequisitos
 
 - Haber completado los módulos A1-A4 de este curso (Prompting, Limitaciones, Code Review, Debugging)
+- Haber completado el [Módulo B1: Estrategias de Desarrollo con IA Agéntica](../modulo-B1-estrategias-desarrollo-ia/README.md) y el [Módulo B2: SDD Monográfico](../modulo-B2-sdd-monografico/README.md)
 - Experiencia práctica con al menos una herramienta de coding con IA (Claude Code, Cursor, Copilot, etc.)
 - Familiaridad con git, tests automatizados y al menos un lenguaje backend (Node.js, Python, Go, etc.)
 - **Recomendado**: haber completado los módulos M01-M10 del [Curso de Claude Code](https://github.com/josefcohernandez/claude-code-course)
@@ -82,7 +83,8 @@ Al completar este módulo serás capaz de:
 Este módulo complementa especialmente:
 
 - [M09 - Agentes, Skills y Teams](https://github.com/josefcohernandez/claude-code-course/blob/master/curso/modulo-09-agentes-skills-teams/README.md): donde se profundiza en la orquestación de agentes para tareas complejas
-- [M12 - Metodologías de Desarrollo con IA](https://github.com/josefcohernandez/claude-code-course/blob/master/curso/modulo-12-metodologias-desarrollo-ia/README.md): donde se formalizan los procesos SDD, Gherkin y TDD aplicados aquí
+- [Módulo B1 - Estrategias de Desarrollo con IA](../modulo-B1-estrategias-desarrollo-ia/README.md): donde se formalizan los patrones Gherkin/BDD, TDD y workflows avanzados que se aplican en los escenarios de este módulo
+- [Módulo B2 - SDD Monográfico](../modulo-B2-sdd-monografico/README.md): donde se detalla el proceso SDD completo que está en la base del escenario greenfield (teoría 03)
 
 ---
 
@@ -90,5 +92,5 @@ Este módulo complementa especialmente:
 
 | | |
 |---|---|
-| **Anterior** | [Módulo A4: Debugging Sistemático con IA](../modulo-A4-debugging-sistematico/README.md) |
-| **Siguiente** | [Módulo B2: Trabajar con Diferentes Stacks](../modulo-B2-diferentes-stacks/README.md) |
+| **Anterior** | [Módulo B2: SDD — Spec-Driven Development (Monográfico)](../modulo-B2-sdd-monografico/README.md) |
+| **Siguiente** | [Módulo C2: Trabajar con Diferentes Stacks](../modulo-C2-diferentes-stacks/README.md) |
