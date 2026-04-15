@@ -35,7 +35,7 @@ El curso está organizado en **5 bloques progresivos** con **14 módulos** + pro
 | Módulo | Título | Tiempo | Descripción |
 |--------|--------|--------|-------------|
 | A1 | Prompting Efectivo para Agentes de Código | 2h | Anatomía de un buen prompt, patrones por tipo de tarea, cookbook, ejercicios comparativos |
-| A2 | Limitaciones, Fallos y Pensamiento Crítico | 2h | Alucinaciones, regresiones, over-engineering, degradación por contexto, cuándo NO usar IA |
+| A2 | Limitaciones, Fallos y Pensamiento Crítico | 2.25h | Alucinaciones, regresiones, over-engineering, degradación por contexto, vibe coding, cuándo NO usar IA |
 | A3 | Revisión de Código Generado por IA | 2h | Qué buscar, red flags, patrones de diff review, deuda técnica silenciosa |
 | A4 | Debugging Sistemático con IA | 2h | Workflow reproducir-aislar-diagnosticar-verificar, logs, cross-stack, post-mortems |
 
@@ -65,9 +65,9 @@ El curso está organizado en **5 bloques progresivos** con **14 módulos** + pro
 | Módulo | Título | Tiempo | Descripción |
 |--------|--------|--------|-------------|
 | E1 | Arquitectura de Software Orientada a IA | 2h | AI-readability, patrones modulares, documentación como contrato, anti-patrones |
-| E2 | Orquestación Multi-Agente y Automatización a Escala | 2h | Patrones de coordinación, prompts para CI/CD, batch processing, testing de prompts |
+| E2 | Orquestación Multi-Agente y Automatización a Escala | 2.75h | Patrones de coordinación, frameworks (LangGraph, CrewAI), MCP, prompts para CI/CD, evals, memoria de agentes |
 | E3 | Testing Avanzado y AI Pair Programming | 2h | Property-based testing, mutation testing, visual regression, flow state |
-| E4 | Seguridad, Costes y Optimización | 2h | Threat modeling, security review profundo, token budgeting, benchmarking |
+| E4 | Seguridad, Costes y Optimización | 2.25h | Threat modeling, seguridad agéntica (OWASP Top 10), security review, token budgeting, benchmarking |
 
 ### Proyecto Final
 
@@ -75,7 +75,7 @@ El curso está organizado en **5 bloques progresivos** con **14 módulos** + pro
 |--------|--------|--------|-------------|
 | P | Caso Práctico Integrador | 4-6h | Sprint simulado de 3 días aplicando todas las técnicas del curso |
 
-**Tiempo total estimado: 35-38 horas**
+**Tiempo total estimado: 36-39 horas**
 
 ---
 
@@ -136,7 +136,9 @@ Sigue los bloques en orden (A → B → C → D → E → Proyecto). Cada módul
 ### Como referencia rápida
 
 - **"¿Cómo escribo un buen prompt?"** → Módulo A1
+- **"¿Qué es context engineering?"** → Módulo A1 (teoría 07)
 - **"El agente genera código malo, ¿qué hago?"** → Módulo A2
+- **"¿Qué riesgos tiene el vibe coding?"** → Módulo A2 (teoría 07)
 - **"¿Cómo reviso un PR generado por IA?"** → Módulo A3
 - **"¿Cómo debuggeo con IA?"** → Módulo A4
 - **"¿Cómo aplico Gherkin/BDD y TDD con IA?"** → Módulo B1
@@ -147,8 +149,12 @@ Sigue los bloques en orden (A → B → C → D → E → Proyecto). Cada módul
 - **"¿Qué herramienta de IA elijo?"** → Módulo D2
 - **"¿Cómo diseño software para que la IA trabaje mejor?"** → Módulo E1
 - **"¿Cómo coordino múltiples agentes?"** → Módulo E2
+- **"¿Qué framework de orquestación elijo?"** → Módulo E2 (teoría 06)
+- **"¿Qué es MCP y cómo implementarlo?"** → Módulo E2 (teoría 07)
+- **"¿Cómo evalúo si mis agentes funcionan?"** → Módulo E2 (teoría 08)
 - **"¿Cómo hago testing avanzado con IA?"** → Módulo E3
 - **"¿Cómo gestiono costes y seguridad?"** → Módulo E4
+- **"¿Qué riesgos de seguridad tienen los agentes?"** → Módulo E4 (teoría 06)
 
 ### En paralelo con el Curso de Claude Code
 
@@ -214,7 +220,8 @@ Curso-Desarrollo-Profesional-con-IA-Agentica/
 │   │   ├── 03-patrones-por-tarea.md
 │   │   ├── 04-cookbook-antes-despues.md
 │   │   ├── 05-contexto-vs-exploracion.md
-│   │   └── 06-iteracion-correccion.md
+│   │   ├── 06-iteracion-correccion.md
+│   │   └── 07-context-engineering.md
 │   └── ejercicios/
 │       ├── 01-comparativa-prompts.md
 │       ├── 02-prompt-por-patron.md
@@ -228,7 +235,8 @@ Curso-Desarrollo-Profesional-con-IA-Agentica/
 │   │   ├── 03-regresiones-silenciosas.md
 │   │   ├── 04-over-engineering.md
 │   │   ├── 05-degradacion-contexto.md
-│   │   └── 06-cuando-no-usar-ia.md
+│   │   ├── 06-cuando-no-usar-ia.md
+│   │   └── 07-vibe-coding.md
 │   └── ejercicios/
 │       ├── 01-caza-alucinaciones.md
 │       ├── 02-deteccion-regresiones.md
@@ -370,7 +378,11 @@ Curso-Desarrollo-Profesional-con-IA-Agentica/
 │   │   ├── 02-prompts-para-cicd.md
 │   │   ├── 03-batch-processing.md
 │   │   ├── 04-testing-de-prompts.md
-│   │   └── 05-gestion-fallos-desatendidos.md
+│   │   ├── 05-gestion-fallos-desatendidos.md
+│   │   ├── 06-frameworks-orquestacion.md
+│   │   ├── 07-mcp-protocolo.md
+│   │   ├── 08-evaluacion-agentes.md
+│   │   └── 09-memoria-agentes.md
 │   └── ejercicios/
 │       ├── 01-pipeline-multi-agente.md
 │       ├── 02-prompt-para-cicd.md
@@ -395,7 +407,8 @@ Curso-Desarrollo-Profesional-con-IA-Agentica/
 │   │   ├── 02-security-review-profundo.md
 │   │   ├── 03-token-budgeting.md
 │   │   ├── 04-estrategias-modelo.md
-│   │   └── 05-benchmarking-productividad.md
+│   │   ├── 05-benchmarking-productividad.md
+│   │   └── 06-seguridad-agentica.md
 │   └── ejercicios/
 │       ├── 01-threat-model-proyecto.md
 │       ├── 02-audit-seguridad-profundo.md
@@ -411,7 +424,9 @@ Curso-Desarrollo-Profesional-con-IA-Agentica/
     ├── prompt-templates/
     │   └── templates-reutilizables.md
     └── checklists/
-        └── checklist-revision-codigo-ia.md
+        ├── checklist-revision-codigo-ia.md
+        ├── checklist-sdd.md
+        └── checklist-gherkin.md
 ```
 
 ---
@@ -421,6 +436,9 @@ Curso-Desarrollo-Profesional-con-IA-Agentica/
 - **Documentación de Claude Code**: https://code.claude.com/docs
 - **Curso complementario de Claude Code**: https://github.com/josefcohernandez/claude-code-course
 - **OWASP Top 10**: https://owasp.org/www-project-top-ten/
+- **OWASP Top 10 for Agentic Applications**: https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/
+- **Model Context Protocol (MCP)**: https://modelcontextprotocol.io/
+- **Anthropic Context Engineering**: https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents
 - **Conventional Commits**: https://www.conventionalcommits.org/
 - **GDPR para desarrolladores**: https://gdpr.eu/
 
@@ -432,6 +450,7 @@ Curso-Desarrollo-Profesional-con-IA-Agentica/
 |---------|-------|---------------------|
 | 1.0 | Abril 2026 | Versión inicial — 12 módulos + proyecto en 4 bloques (A: El Oficio, B: Escenarios, C: Equipo, D: Experto) |
 | 1.1 | Abril 2026 | Reestructuración — nuevo Bloque B (Metodologías: B1 Estrategias + B2 SDD), 14 módulos en 5 bloques. Bloques B→C, C→D, D→E. El curso es ahora la fuente autoritativa de metodologías de desarrollo con IA |
+| 1.2 | Abril 2026 | Ampliación — 7 nuevos ficheros de teoría: context engineering (A1), vibe coding (A2), frameworks de orquestación (E2), MCP en profundidad (E2), evaluación de agentes (E2), memoria de agentes (E2), seguridad agéntica OWASP (E4). Actualización de token budgeting con prompt caching avanzado (E4) y futuro del desarrollo con computer use y agentic RAG (D2) |
 
 ---
 
