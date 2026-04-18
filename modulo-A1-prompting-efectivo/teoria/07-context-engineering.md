@@ -217,10 +217,10 @@ y coherencia interna degradada.
 
 ### Relación con la taxonomía del módulo A2
 
-Estos 4 patrones son la causa directa de dos de los 8 fallos descritos en [A2 — Taxonomía de Fallos](../modulo-A2-limitaciones-fallos/teoria/01-taxonomia-fallos.md):
+Estos 4 patrones son la causa directa de dos de los 8 fallos descritos en [A2 — Taxonomía de Fallos](../../modulo-A2-limitaciones-fallos/teoria/01-taxonomia-fallos.md):
 
 - **Context Poisoning y Context Confusion** causan **Alucinación de Lógica** (el agente tiene una premisa falsa y trabaja desde ella)
-- **Context Distraction y Context Clash** causan **Degradación por Contexto** (la sesión pierde coherencia, como se describe en [A2 — Degradación por Contexto](../modulo-A2-limitaciones-fallos/teoria/05-degradacion-contexto.md))
+- **Context Distraction y Context Clash** causan **Degradación por Contexto** (la sesión pierde coherencia, como se describe en [A2 — Degradación por Contexto](../../modulo-A2-limitaciones-fallos/teoria/05-degradacion-contexto.md))
 
 ---
 
@@ -260,7 +260,7 @@ Implementa el endpoint POST /api/payments/refund
 
 El contenido estático al principio (el prefijo) se cachea entre peticiones. El contenido dinámico al final no afecta el cache del prefijo.
 
-Para una visión detallada de cómo los costes de tokens impactan en proyectos reales, ver [E4 — Token Budgeting](../modulo-E4-seguridad-costes/teoria/03-token-budgeting.md).
+Para una visión detallada de cómo los costes de tokens impactan en proyectos reales, ver [E4 — Token Budgeting](../../modulo-E4-seguridad-costes/teoria/03-token-budgeting.md).
 
 > **Referencia**: para profundizar en la gestión de la ventana de contexto desde la perspectiva de la herramienta, ver [M03 - Contexto y Tokens](https://github.com/josefcohernandez/claude-code-course/blob/master/curso/modulo-03-contexto-y-tokens/README.md) del Curso de Claude Code.
 

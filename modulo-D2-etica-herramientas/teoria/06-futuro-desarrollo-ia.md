@@ -41,7 +41,7 @@ El Model Context Protocol (MCP) se ha consolidado como un protocolo abierto impo
 
 MCP permite a los agentes interactuar con bases de datos, APIs, issue trackers, observabilidad, CI/CD y sistemas de comunicación a través de un protocolo estandarizado. Eso no significa "build once, run everywhere" sin matices: la compatibilidad de protocolo reduce fricción, pero cada host mantiene sus propias políticas, permisos, UX y subconjuntos de capacidades.
 
-**Implicación para ti**: la frontera entre "lo que hace el agente" y "lo que haces tú" se expande continuamente. Saber construir y configurar servidores MCP es una habilidad de alto valor — es la diferencia entre un agente genérico y uno integrado con tu infraestructura. Ver el [Módulo E2: MCP en Profundidad](../modulo-E2-orquestacion-automatizacion/teoria/07-mcp-protocolo.md) para aprender la arquitectura y construcción de servidores MCP.
+**Implicación para ti**: la frontera entre "lo que hace el agente" y "lo que haces tú" se expande continuamente. Saber construir y configurar servidores MCP es una habilidad de alto valor — es la diferencia entre un agente genérico y uno integrado con tu infraestructura. Ver el [Módulo E2: MCP en Profundidad](../../modulo-E2-orquestacion-automatizacion/teoria/07-mcp-protocolo.md) para aprender la arquitectura y construcción de servidores MCP.
 
 ### 4. Computer use: agentes que interactúan con interfaces gráficas
 
